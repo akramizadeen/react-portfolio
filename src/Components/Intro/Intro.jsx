@@ -10,6 +10,7 @@ import ThumpUp from '../../img/thumbup.png';
 import Crown from '../../img/crown.png';
 import GlassesImoji from '../../img/glassesimoji.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
+import { Link } from 'react-scroll';
 
 function Intro() {
   return (
@@ -18,13 +19,21 @@ function Intro() {
             <div className="i-name">
                 <span>Hy! I Am</span>
                 <span>Akram Izadeen</span>
-                <span>Frontend Developer with high level of experience in web designing and development, producting the quality work.</span>
+                <span>Full-Stack Web Developer with high level of experience in web designing and development, producting the quality work.</span>
             </div>
-            <button className="button i-button">Hire Me</button>
+            <Link to='contact' spy={true} smooth={true}>
+                <button className="button i-button">Hire Me</button>
+            </Link>
             <div className="i-icons">
-                <img src={GitHub} alt="" />
-                <img src={LinkedIn} alt="" />
-                <img src={Instagram} alt="" />
+                <a href="https://github.com/akramizadeen" target="_blank">
+                    <img src={GitHub} alt="" />
+                </a>
+                <a href="https://www.linkedin.com/in/akram-izadeen-b87b1a1a9/" target="_blank">
+                    <img src={LinkedIn} alt="" />
+                </a>
+                <a href="https://www.instagram.com/akram_izadeen/" target="_blank">
+                    <img src={Instagram} alt="" />
+                </a>
             </div>
         </div>
         <div className="i-right">

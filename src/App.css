@@ -19,7 +19,7 @@
 
 .button {
   border-radius: 34px;
-  border: none;
+  border: 1px solid #fb982f;
   color: white;
   font-size: 16px;
   padding: 11px 26px 11px 26px;

@@ -79,8 +79,8 @@
 
 .i-right>:nth-child(3) {
     transform: scale(0.9);
-    left: 15%;
-    bottom: 20%;
+    left: 89px;
+    bottom: 101px;
     border-bottom-right-radius: 13rem;
 }
 
